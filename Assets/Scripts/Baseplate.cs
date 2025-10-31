@@ -1,11 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Unity.XR.CoreUtils;
 using UnityEngine;
 
 public class Baseplate : MonoBehaviour
 {
+    public GameObject pieceParent;
+
     public GameObject[] studs = new GameObject[9];
+    
 
     public string[] solution1 = new string[9];
     public bool solution1Solved = false;
@@ -56,5 +60,18 @@ public class Baseplate : MonoBehaviour
 
         // Output for solution 1
         if (solution1Solved) { Debug.Log("solved solution 1"); }
+    }
+
+
+    public void Reset()
+    {
+        foreach (var stud in studs)
+        {
+            stud.GetComponent<StudObject>().Reset();
+        }
+        foreach (Transform piece in pieceParent.transform)
+        {
+            Destroy(piece.gameObject);
+        }
     }
 }

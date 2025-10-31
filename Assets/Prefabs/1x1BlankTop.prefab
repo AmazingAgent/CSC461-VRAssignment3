@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4726796170988682248}
   m_Layer: 0
-  m_Name: 1x1RedTop
+  m_Name: 1x1BlankTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -262,7 +262,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 52e0c5fdc11c0a74dbe1ecf920777b73, type: 2}
+  - {fileID: 2100000, guid: c6b3b890a2a10f441810dd5e4e270d42, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -417,7 +417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5dd4a7fd21656a4ab5909b8b5ab3b62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: redtop1x1
+  name: blanktop1x1
   placed: 0
   stud: {fileID: 7213029699843423722}
   interactable: {fileID: 1524341460851478371}

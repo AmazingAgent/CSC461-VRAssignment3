@@ -22,7 +22,10 @@ public class PieceCheck : MonoBehaviour
 
     void Start()
     {
-        stud.SetActive(false);
+        if (stud != null)
+        {
+            stud.SetActive(false);
+        }
     }
 
     // Update is called once per frame
@@ -93,9 +96,12 @@ public class PieceCheck : MonoBehaviour
     {
         List<string> result = new List<string>();
         result.Add(name);
-        if (stud.GetComponent<StudObject>().GetNext() != null)
+        if (stud != null)
         {
-            result.Concat(stud.GetComponent<StudObject>().GetNext());
+            if (stud.GetComponent<StudObject>().GetNext() != null)
+            {
+                result.Concat(stud.GetComponent<StudObject>().GetNext());
+            }
         }
         return result;
     }
