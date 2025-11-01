@@ -44,9 +44,9 @@ public class StudObject : MonoBehaviour
     }
 
 
-    public List<string> GetNext()
+    public string GetNext()
     {
-        if (piece is not null)
+        if (piece != null)
         {
             return piece.gameObject.GetComponent<PieceCheck>().GetNext();
         }

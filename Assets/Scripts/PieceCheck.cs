@@ -92,15 +92,15 @@ public class PieceCheck : MonoBehaviour
     }
 
 
-    public List<string> GetNext()
+    public string GetNext()
     {
-        List<string> result = new List<string>();
-        result.Add(name);
+        string result = "";
+        result += name + "_";
         if (stud != null)
         {
             if (stud.GetComponent<StudObject>().GetNext() != null)
             {
-                result.Concat(stud.GetComponent<StudObject>().GetNext());
+                result += stud.GetComponent<StudObject>().GetNext();
             }
         }
         return result;
