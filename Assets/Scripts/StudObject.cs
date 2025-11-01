@@ -16,7 +16,7 @@ public class StudObject : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (piece != null) { occupied = true; }
+        if (piece != null) { occupied = true; isActive = false; }
     }
 
     private void OnTriggerEnter(Collider other)

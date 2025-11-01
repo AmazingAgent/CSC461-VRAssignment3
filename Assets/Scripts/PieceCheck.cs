@@ -62,10 +62,10 @@ public class PieceCheck : MonoBehaviour
     // Checks if the piece is placed on a stud
     public void DropPiece()
     {
-        Debug.Log("piece dropping");
+        //Debug.Log("piece dropping");
         if (potentialTargets.Count > 0) // Theres a valid stud nearby
         {
-            Debug.Log("found closest");
+            //Debug.Log("found closest");
             GameObject targetPos = GetClosestPosition(potentialTargets);
             finalPos = targetPos.transform.position;
             placed = true;

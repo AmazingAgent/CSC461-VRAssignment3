@@ -48,7 +48,7 @@ GameObject:
   - component: {fileID: 1640169360554690030}
   m_Layer: 0
   m_Name: '[BuildingBlock] HandGrabInstallationRoutine'
-  m_TagString: Untagged
+  m_TagString: 1x1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -214,7 +214,7 @@ GameObject:
   - component: {fileID: 6625867914989840261}
   m_Layer: 0
   m_Name: Model
-  m_TagString: Untagged
+  m_TagString: 1x1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -382,7 +382,7 @@ GameObject:
   - component: {fileID: 7441976435825199756}
   m_Layer: 0
   m_Name: Piece
-  m_TagString: Untagged
+  m_TagString: 1x1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -544,6 +544,10 @@ PrefabInstance:
     - target: {fileID: 6376675608277332193, guid: 30bea495cf6d977469be9e5e414cd550, type: 3}
       propertyPath: m_Name
       value: Stud
+      objectReference: {fileID: 0}
+    - target: {fileID: 6376675608277332193, guid: 30bea495cf6d977469be9e5e414cd550, type: 3}
+      propertyPath: m_TagString
+      value: 1x1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
