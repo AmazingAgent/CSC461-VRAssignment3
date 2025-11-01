@@ -12,5 +12,9 @@ You can use as many blocks as you need, and you can place them on top of eachoth
 
 The puzzles are only solved if you have copied them exactly.
 
+## Bonuses
+Bonus 1: 15 parts is completed through technicality because there are infinite parts. Don't know if this counts
+Bonus 3: There are 3 puzzles the player has to assemble and solve
+
 Full Walkthrough Here:
 https://youtu.be/DCgG4FNPkVg
